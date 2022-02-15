@@ -1,0 +1,16 @@
+.lost {
+  color: #ff347f;
+}
+
+.found {
+  color: inherit;
+}
+
+.card img {
+  height: 5%;
+}
+
+.post a {
+  text-decoration: none;
+  color: inherit;
+}

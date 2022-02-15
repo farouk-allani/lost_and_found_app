@@ -1,0 +1,35 @@
+.comment {
+  margin: 5%;
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.comment-details {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.comment-edit-delete {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment-details p {
+  white-space: wrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+}
+
+.comment-details a {
+  text-decoration: none;
+}
+
+.time {
+  font-weight: lighter;
+}

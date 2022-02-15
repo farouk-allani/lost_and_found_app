@@ -1,0 +1,113 @@
+.sign-up {
+  max-width: 35em;
+  padding: 2em;
+  margin: 2em auto;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 2%;
+}
+
+.sign-up form {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.sign-up h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2ebe7;
+}
+
+.sign-up p {
+  color: #bf1650;
+}
+
+.sign-up p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.sign-up input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #e2ebe7;
+}
+
+.sign-up label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  /* margin-bottom: 13px; */
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+  color: #0e101c;
+}
+
+.sign-up a {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.sign-up button[type="submit"],
+.sign-up input[type="submit"] {
+  background-color: #01bf71;
+  color: #010606;
+  border: none;
+  margin-top: 2em;
+  padding: 14px 48px;
+  font-size: 16px;
+  border-radius: 50px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.sign-up button[type="submit"]:hover,
+.sign-up input[type="submit"]:hover {
+  background-color: #01bf71;
+}
+
+.sign-up button[type="submit"]:active,
+.sign-up input[type="button"]:active,
+.sign-up input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.sign-up input:disabled {
+  opacity: 0.4;
+}
+
+.sign-up input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+.sign-up button[type="submit"],
+.sign-up input[type="button"],
+.sign-up input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.sign-up hr {
+  margin-top: 3%;
+}
+
+.sign-up button {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

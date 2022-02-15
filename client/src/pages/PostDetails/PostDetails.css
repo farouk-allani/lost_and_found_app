@@ -1,0 +1,38 @@
+.post-details-container {
+  margin: 0 auto;
+  max-width: 460px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.post-details-container h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.post-details-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-details-container-column {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.post-details-content {
+  min-width: 460px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 460px;
+}
+
+.error-post {
+  text-align: center;
+  margin: 2% 4%;
+  color: red;
+}

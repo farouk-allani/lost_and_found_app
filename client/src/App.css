@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  background-color: transparent;
+}
+
+.icons {
+  color: #01bf71;
+  font-size: 35px;
+}
+
+.loading {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #01bf71;
+}
+
+.loading h2 {
+  color: #d81b60;
+  text-align: center;
+}
+
+.error-data {
+  margin: 2% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-data h2 {
+  color: red;
+  text-align: center;
+}
+
+.error-data img {
+  margin-top: 10%;
+  width: 20%;
+  height: 10%;
+}
+
+.error-contact {
+  text-align: center;
+  margin: 2% 4%;
+  color: red;
+}
+
+.admin {
+  margin: 2% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.charts {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  grid-gap: 2em;
+  align-items: center;
+}
+
+.profiles {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  grid-gap: 2em;
+  align-items: center;
+}
+
+.posts {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  grid-gap: 2em;
+  align-items: center;
+}
+
+.visitor-box {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.error-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  height: 40vh;
+  /* width: 400px; */
+}

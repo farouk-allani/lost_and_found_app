@@ -1,0 +1,15 @@
+.side-icons {
+  color: none;
+  font-size: 25px;
+}
+
+.sidebar a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #01bf71;
+  transition: 0.2s ease-in-out;
+}
