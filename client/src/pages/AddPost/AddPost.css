@@ -58,7 +58,7 @@
 
 .add-post button[type="submit"],
 .add-post input[type="submit"] {
-  background-color: #01bf71;
+  background-color: #E90128;
   color: #010606;
   border: none;
   margin-top: 2em;
@@ -76,7 +76,7 @@
 
 .add-post button[type="submit"]:hover,
 .add-post input[type="submit"]:hover {
-  background-color: #01bf71;
+  background-color: #E90128;
 }
 
 .add-post button[type="submit"]:active,

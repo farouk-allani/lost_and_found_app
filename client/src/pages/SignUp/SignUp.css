@@ -58,7 +58,7 @@
 
 .sign-up button[type="submit"],
 .sign-up input[type="submit"] {
-  background-color: #01bf71;
+  background-color: #E90128;
   color: #010606;
   border: none;
   margin-top: 2em;
@@ -76,7 +76,7 @@
 
 .sign-up button[type="submit"]:hover,
 .sign-up input[type="submit"]:hover {
-  background-color: #01bf71;
+  background-color: #E90128;
 }
 
 .sign-up button[type="submit"]:active,

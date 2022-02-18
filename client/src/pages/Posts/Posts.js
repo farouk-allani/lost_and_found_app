@@ -43,18 +43,18 @@ const Posts = () => {
             ? posts
                 .map((el) => <PostCard post={el} key={el._id} />)
                 .sort((a, b) => (a.date > b.date && 1) || -1)
-                .slice(0, 7)
+                
             : filter === "Lost"
             ? posts
                 .filter((post) => post.isLost === true)
                 .map((el) => <PostCard post={el} key={el._id} />)
                 .sort((a, b) => (a.date > b.date && 1) || -1)
-                .slice(0, 7)
+                
             : posts
                 .filter((post) => post.isLost === false)
                 .map((el) => <PostCard post={el} key={el._id} />)
                 .sort((a, b) => (a.date > b.date && 1) || -1)
-                .slice(0, 7)}
+                }
         </div>
       )}
     </ThemeProvider>

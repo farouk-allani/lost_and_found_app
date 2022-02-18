@@ -127,7 +127,7 @@ const AddPost = () => {
         </div>
         <div className="post-image">
           <label htmlFor="file">Upload an image</label>
-          <Button color="inherit" size="large" component="label">
+          <Button color="primary" size="large" component="label">
             <AddAPhotoIcon color="primary" />
             <input
               type="file"
@@ -139,6 +139,7 @@ const AddPost = () => {
           </Button>
         </div>
         <button
+          style={{backgroundColor:"#E90128"}}
           type="submit"
           variant="contained"
           size="small"

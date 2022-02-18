@@ -33,7 +33,7 @@
 .profile-front {
   cursor: pointer;
   height: 100%;
-  background: #fff;
+  background: #F7F1F3;
   backface-visibility: hidden;
   border-radius: 5px;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
@@ -43,11 +43,12 @@
   position: relative;
   height: 150px;
   /* width: 300px; */
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVSv2q5Pw1aHdr3wHTIejsFhK4a9kcK0TwHA&usqp=CAU")
+  background: url("../../images/back.jpg")
     no-repeat;
   background-size: cover;
   backface-visibility: hidden;
   overflow: hidden;
+ 
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -102,15 +103,15 @@
   position: relative;
   top: 10px;
   font-size: 10px;
-  color: #01bf71;
+  color: #E90128;
   backface-visibility: hidden;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  border: 2px solid #01bf71;
+  border: 2px solid #E90128;
   padding: 8px 15px;
   border-radius: 30px;
-  background: #01bf71;
+  background: #E90128;
   color: #fff;
 }
 .profile-social-media-wrapper {

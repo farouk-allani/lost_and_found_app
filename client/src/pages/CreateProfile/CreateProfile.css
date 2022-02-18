@@ -69,7 +69,7 @@
 
 .create-profile button[type="submit"],
 .create-profile input[type="submit"] {
-  background-color: #01bf71;
+  background-color: #E90128;
   color: #010606;
   border: none;
   margin-top: 2em;
@@ -87,7 +87,7 @@
 
 .create-profile button[type="submit"]:hover,
 .create-profile input[type="submit"]:hover {
-  background-color: #01bf71;
+  background-color: #E90128;
 }
 
 .create-profile button[type="submit"]:active,

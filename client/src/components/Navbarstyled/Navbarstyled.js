@@ -26,7 +26,7 @@ import "./Navbarstyled.css";
 import { getAllposts, getPostByTitle } from "../../JS/actions/post";
 import { useParams } from "react-router";
 
-const Navbarstyled = ({ handleOpen, location }) => {
+const                                         Navbarstyled = ({ handleOpen, location }) => {
   const [showInput, setshowInput] = useState(false);
   const [inputText, setInputText] = useState("");
   const isAuth = useSelector((state) => state.userReducer.isAuth);
@@ -77,7 +77,7 @@ const Navbarstyled = ({ handleOpen, location }) => {
             {location.pathname === "/" && (
               <>
                 <NavItem>
-                  <NavLinks to="posts">Recent posts</NavLinks>
+                  <NavLinks to="posts">Delivery</NavLinks>
                 </NavItem>
                 <NavItem>
                   <NavLinks to="services">Services</NavLinks>
