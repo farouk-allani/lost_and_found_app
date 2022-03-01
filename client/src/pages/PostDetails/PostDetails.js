@@ -222,9 +222,9 @@ const PostDetails = () => {
                         border: "none",
                       }}
                     >
-                      <Button color="primary" onClick={handleDemandShow}>
+                      {/* <Button color="primary" onClick={handleDemandShow}>
                         Demands
-                      </Button>
+                      </Button> */}
                       {openListenerDemand ? (
                         <Box sx={styles}>
                           <DemandList />
@@ -287,7 +287,8 @@ const PostDetails = () => {
                       : "/assets/lost_found/found.png"
                   }
                   alt={post && post.postImage ? "postImage" : "..."}
-                  style={{ width: "20em", height: "15em" }}
+                  style={{ width: "20em", height: "15em",paddingBottom: '19px',
+                  borderRadius: '55px' }}
                 />
               </div>
             </div>

@@ -12,7 +12,7 @@ const {
   getProfileByName,
 } = require("../controllers/profile.controllers");
 const upload = require("../middlewares/upload");
-//create only one profile with that emil
+//create only one profile with that email
 router.post("/", isAuth, createProfile);
 //get one profile
 router.get("/myprofile", isAuth, getOneProfile);
