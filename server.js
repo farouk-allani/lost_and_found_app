@@ -1,6 +1,7 @@
 //require express
 const express = require("express");
 const connectDB = require("./config/connectDB");
+const path=require('path');
 //instance of all express methods
 const app = express();
 //-------------------------------------
@@ -19,8 +20,17 @@ app.use("/api/profile", require("./router/profile"));
 app.use("/api/post", require("./router/post"));
 //access to comment routes
 app.use("/api/post/comment", require("./router/comment"));
+
 //access to demand routes
 app.use("/api/demand", require("./router/demand"));
+// For the deploy
+app.use(express.static(path.join(__dirname, "client", "build")));
+// Rendering the front end 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
+
+
 //port
 PORT = process.env.PORT;
 //start the server

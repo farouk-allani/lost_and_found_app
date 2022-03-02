@@ -5,7 +5,8 @@
   "main": "sever.js",
   "scripts": {
     "build": "cd client && npm run build",
-       "start": "node server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
+    "start": "node server",
     "front": "cd client && npm start",
     "back": "nodemon server",
     "dev": "concurrently \"npm run front\" \"npm run back\""
@@ -22,6 +23,7 @@
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
+    "heroku": "^7.59.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.11",
     "mongoose-unique-validator": "^3.0.0",
