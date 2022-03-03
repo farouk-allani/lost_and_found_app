@@ -23,6 +23,7 @@ app.use("/api/post/comment", require("./router/comment"));
 
 //access to demand routes
 app.use("/api/demand", require("./router/demand"));
+
 // For the deploy
 app.use(express.static(path.join(__dirname, "client", "build")));
 // Rendering the front end 
@@ -32,7 +33,7 @@ app.get("*", (req, res) => {
 
 
 //port
-PORT = process.env.PORT;
+PORT = process.env.PORT || 6000;
 //start the server
 app.listen(PORT, () => {
   console.log("server is running on port", PORT);
