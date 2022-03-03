@@ -1,9 +1,11 @@
 //require express
 const express = require("express");
+var cors = require('cors')
 const connectDB = require("./config/connectDB");
 const path=require('path');
 //instance of all express methods
 const app = express();
+app.use(cors())
 //-------------------------------------
 require("dotenv").config();
 //connect with database
@@ -27,14 +29,14 @@ app.use("/api/demand", require("./router/demand"));
 // For the deploy
 app.use(express.static(path.join(__dirname, "client", "build")));
 // Rendering the front end 
-app.get("*", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
 
 //port
-PORT = process.env.PORT || 6000;
+port =  8000;
 //start the server
-app.listen(PORT, () => {
-  console.log("server is running on port", PORT);
+app.listen(port, () => {
+  console.log("server is running on port", port);
 });

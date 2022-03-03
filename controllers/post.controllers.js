@@ -32,6 +32,7 @@ exports.createPost = async (req, res, next) => {
 
 //get all posts
 exports.getAllPosts = async (req, res) => {
+  console.log("called all posts")
   try {
     const findPosts = await Post.find();
     res.status(200).send({
