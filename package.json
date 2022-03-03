@@ -5,7 +5,7 @@
   "main": "sever.js",
   "scripts": {
     "build": "cd client && npm install && npm run build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
     "start": "node server",
     "front": "cd client && npm start",
     "back": "nodemon server",
