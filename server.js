@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 
 
 //port
-port =  8000;
+port = process.env.PORT || 8000;
 //start the server
 app.listen(port, () => {
   console.log("server is running on port", port);
