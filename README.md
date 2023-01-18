@@ -2,12 +2,12 @@
 
 Welcome to the Lost and Found Platform, a web application designed to connect people who have lost items with people who have found them. This platform is built using the following technologies:
 
-- ReactJS for the front-end
-- MongoDB for the database
-- Material UI for the design
-- Styled Components for styling
-- ExpressJS for the back-end
-- Redux for state management
+- ReactJS for the front-end.
+- MongoDB for the database.
+- Material UI for the design.
+- Styled Components for styling.
+- ExpressJS for the back-end.
+- Redux for state management.
 
 ![Lost and Found Platform](https://faroukallani.tn/img/portfolio/lnf.png)
 
