@@ -55,6 +55,7 @@ If you would like to contribute to this project, please do the following:
 4. Test your changes
 5. Submit a pull request
 
+
 ## Conclusion
 
 This project was developed as a final project in my fullstack bootcamp at GoMyCode Sousse. If you have any feedback or suggestions, please let us know.
